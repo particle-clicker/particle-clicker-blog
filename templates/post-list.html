@@ -1,0 +1,8 @@
+<div class="list-group">
+  $for(posts)$
+  <a href="$url$" class="list-group-item">
+    <h4 class="list-group-item-heading">$title$</h4>
+    $if(teaser)$<p class="list-group-item-text">$teaser$</p>$endif$
+  </a>
+  $endfor$
+</div>
